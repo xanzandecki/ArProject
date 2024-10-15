@@ -137,6 +137,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
+  - {fileID: -716870249766520456, guid: 8c72d946505f83e4dbb569ab9c62e206, type: 2}
   - {fileID: 11400000, guid: c9d6f39b638ce34479e50c60f85b78be, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -352,7 +353,9 @@ PlayerSettings:
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
-  m_TemplateCustomTags: {}
+  m_TemplateCustomTags:
+    DESCRIPTION: 
+    WEBXR_POLYFILL_CONFIG: 
   mobileMTRendering:
     Android: 1
     iPhone: 1
@@ -626,7 +629,7 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Minimal
+  webGLTemplate: PROJECT:WebXR2020
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 2
